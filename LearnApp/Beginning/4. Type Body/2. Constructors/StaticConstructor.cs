@@ -25,7 +25,7 @@
 
         private static void ExampleMethod()
         {
-            Console.WriteLine("{0}: {1} & {2}", typeof(StaticConstructor), _exampleNumber, _superPuperNumber);
+            Console.WriteLine("{0}: {1} & {2}", typeof(StaticConstructor).Name, _exampleNumber, _superPuperNumber);
         }
     }
 }

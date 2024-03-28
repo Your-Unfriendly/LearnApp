@@ -15,6 +15,6 @@ namespace LearnApp.Beginning.TypeBody.Constructors
             _b = b;
         }
 
-        public void Sum() => Console.WriteLine("Сумма равна ({0}): {1} ({2} + {3})", GetType(), _a + _b, _a, _b);
+        public void Sum() => Console.WriteLine("Сумма равна ({0}): {1} ({2} + {3})", GetType().Name, _a + _b, _a, _b);
     }
 }
