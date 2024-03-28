@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <Folder Include="Beginning\4. Type Body\4. Methods\" />
-    <Folder Include="Beginning\4. Type Body\3. Fields\" />
     <Folder Include="Beginning\4. Type Body\5. Properties\" />
     <Folder Include="OOP\Interfaces\" />
     <Folder Include="OOP\Abstracts\" />
