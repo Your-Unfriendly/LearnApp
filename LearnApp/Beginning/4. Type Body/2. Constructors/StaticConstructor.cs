@@ -3,7 +3,7 @@
     public class StaticConstructor
     {
         // Будет переопределять в статическом конструкторе, хоть это и не показано.
-        private static readonly int _exampleNumber = 1;
+        private static readonly int _exampleNumber = 3;
 
         private static readonly int _superPuperNumber;
 
@@ -13,11 +13,19 @@
         */
         static StaticConstructor()
         {
-            _superPuperNumber = 1;
+            _superPuperNumber = 7;
 
             ExampleMethod();
         }
 
-        private static void ExampleMethod() { }
+        public static void C()
+        {
+
+        }
+
+        private static void ExampleMethod()
+        {
+            Console.WriteLine("{0}: {1} & {2}", typeof(StaticConstructor), _exampleNumber, _superPuperNumber);
+        }
     }
 }
