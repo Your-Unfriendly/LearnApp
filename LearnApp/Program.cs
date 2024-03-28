@@ -1,18 +1,15 @@
-﻿using LearnApp.Beginning;
-using LearnApp.Beginning.TypeBody.Constructors;
-using LearnApp.Beginning.TypeModifiers.Static;
+﻿using LearnApp.Beginning.TypeBody.Constructors;
+using LearnApp.Beginning.TypeBody.Methods;
 
 namespace LearnApp
 {
     public class Program
     {
-        private int _b;
-
-        internal int A { get; set; }
-
         private static void Main()
         {
             TestConstructors();
+
+            TestMethods();
 
             Console.WriteLine("Привет, мир!");
         }
@@ -26,6 +23,13 @@ namespace LearnApp
             var a = new StandartConstructor(2, 1);
 
             a.Sum();
+        }
+
+        private static void TestMethods()
+        {
+            Methods methods = new Methods();
+
+            methods.First();
         }
     }
 }
