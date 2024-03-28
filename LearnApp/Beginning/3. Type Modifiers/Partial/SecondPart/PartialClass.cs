@@ -1,4 +1,4 @@
-﻿namespace LearnApp.Beginning.Partial
+﻿namespace LearnApp.Beginning.TypeModifiers.Partial
 {
     public partial class PartialClass
     {
