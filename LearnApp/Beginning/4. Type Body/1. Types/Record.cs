@@ -1,12 +1,12 @@
 ﻿namespace LearnApp.Beginning.TypeBody.Types
 {
-    public record Record
+    // Является либо классом либо структурой.
+    // Сразу определяет конструктор и некоторые интерфейсы за тебя.
+    public record Record(int a)
     {
         public void A()
         {
-            _ = GetType();
-
-            return;
+            Console.WriteLine("{0}: {1}", GetType(), a);
         }
     }
 }
