@@ -1,4 +1,5 @@
 ﻿using LearnApp.Beginning.AccessModifiers;
+using LearnApp.Beginning.TypeBody.Constructors;
 
 namespace TestApp
 {
@@ -6,7 +7,6 @@ namespace TestApp
     {
         static void Main(string[] args)
         {
-
             Console.WriteLine("Приложение для теста окончено!");
         }
 
