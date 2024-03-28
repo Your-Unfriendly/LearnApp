@@ -6,10 +6,16 @@ namespace TestApp
     {
         static void Main(string[] args)
         {
-            PublicClass publicClass = new PublicClass();
-            InternalClass internalClass = null;
 
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Приложение для теста окончено!");
+        }
+
+        public static void CheckAccessModifiers()
+        {
+            PublicClass publicClass = new PublicClass();
+
+            // Ошибка так как он виден только внутри проекта LearnApp, можно исправить с помощью [assembly: InternalsVisibleTo("TestApp")]
+            // InternalClass internalClass = null;
         }
     }
 }
